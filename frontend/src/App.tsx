@@ -1,10 +1,10 @@
 import React from 'react';
-import Home from './pages/Home';
+import Landing from './pages/Lading';
 import './assets/styles/global.css';
 
 const App: React.FC = () => (
   <>
-    <Home />
+    <Landing />
   </>
 );
 
