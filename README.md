@@ -1,6 +1,4 @@
 <h1 align="center">
-    <img src="https://camo.githubusercontent.com/ab9f94b1f47bf05fbf0f99d65a802f638cb38f21/68747470733a2f2f692e696d6775722e636f6d2f613334616f30782e706e67" width="100px" /><br>
-    <br>
  FirstCode-LearningPlataform
 </h1>
 
@@ -25,12 +23,6 @@ A platform to join develop enthusiasts into professional developers to share kno
     <img alt="Repository issues" src="https://img.shields.io/github/issues/robertokbr/FirstCode-LearningPlataform.svg">
   </a>
 </p>
-
-
- <img src="https://github.com/robertokbr/FirstCode-LearningPlataform/blob/master/.Github/signin.png"/>
-  <img src="https://github.com/robertokbr/FirstCode-LearningPlataform/blob/master/.Github/signout.png"/>
- <img src="https://github.com/robertokbr/FirstCode-LearningPlataform/blob/master/.Github/portail.png"/>
-
 
 # 🚧 In progress
 
