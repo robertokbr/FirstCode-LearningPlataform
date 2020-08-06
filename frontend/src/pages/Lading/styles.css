@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-
+  
   color: var(--color-text-in-primary);
   background: var(--color-primary) ;
 }
@@ -21,7 +21,7 @@
 .logo-container{
   text-align: center;
   margin-bottom: 3.2rem;
-
+  
 }
 
 .logo-container h2{
@@ -57,21 +57,21 @@
 
 .buttons-container a.study{
   background-color: var(--color-primary-lighter);
-
+  
 }
 
 .buttons-container a.give-classes{
   background-color: var(--color-secundary);
-
+  
 }
 .buttons-container a.study:hover{
   background-color: var(--color-primary-light);
-
+  
 }
 
 .buttons-container a.give-classes:hover{
   background-color: var(--color-secundary-dark);
-
+  
 }
 
 .total-connections {
@@ -79,7 +79,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-
+  
 }
 .total-connections img {
   margin-left: 0.8rem;
@@ -95,48 +95,48 @@
     "buttons buttons total"
     ;
   }
-
-
-.logo-container {
-  grid-area: logo;
-  align-self: center;
-  margin: 0;
-  text-align: left;
-
-}
-
-.logo-container h2 {
-text-align: initial;
-font-size: 3.6rem;
-}
-
-.logo-container img {
-  height: 100%;
-}
-
-.hero-image{
-  grid-area: hero;
-  justify-self: end ;
-}
-
-.buttons-container{
-  grid-area: buttons;
-  justify-content: flex-start;
-}
-
-.buttons-container a {
-  font-size: 2.4rem;
-}
-
-.buttons-container a img {
-  margin-right: 2.4rem;
-}
-
-.total-connections {
-  grid-area: total;
-  justify-self: end;
-}
-
+  
+  
+  .logo-container {
+    grid-area: logo;
+    align-self: center;
+    margin: 0;
+    text-align: left;
+    
+  }
+  
+  .logo-container h2 {
+    text-align: initial;
+    font-size: 3.6rem;
+  }
+  
+  .logo-container img {
+    height: 100%;
+  }
+  
+  .hero-image{
+    grid-area: hero;
+    justify-self: end ;
+  }
+  
+  .buttons-container{
+    grid-area: buttons;
+    justify-content: flex-start;
+  }
+  
+  .buttons-container a {
+    font-size: 2.4rem;
+  }
+  
+  .buttons-container a img {
+    margin-right: 2.4rem;
+  }
+  
+  .total-connections {
+    grid-area: total;
+    justify-self: end;
+  }
+  
 }
 
 
