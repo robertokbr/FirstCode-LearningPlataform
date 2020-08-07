@@ -1,7 +1,6 @@
 import React from "react";
-import "./styles.css";
+import './styles.css'
 import PageHeader from "../../components/PageHeader";
-
 const TeacherList : React.FC = ()=>{
     return (
 
@@ -24,6 +23,7 @@ const TeacherList : React.FC = ()=>{
 
         </PageHeader>
         </div>
+        
     )
 };
 
