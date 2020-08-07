@@ -4,6 +4,8 @@ import {} from "react-icons/fi";
 import logoImg from "../../assets/images/logo.svg";
 import backIcon from "../../assets/images/icons/back.svg";
 
+import './styles.css';
+
 interface HeaderProps{
   title: string;
 }
