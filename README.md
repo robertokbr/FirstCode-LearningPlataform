@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="https://github.com/robertokbr/FCLearning/blob/master/frontend/src/assets/images/logo.svg" width="170px" /><br>
+  <img src="https://github.com/robertokbr/FCLearning/blob/master/frontend/src/assets/images/logo.svg" width="250px" /><br>
   <br>
  FCLearning
 </h1>
