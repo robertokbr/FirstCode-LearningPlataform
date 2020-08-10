@@ -1,7 +1,7 @@
 <h1 align="center">
  FCLearning
 </h1>
- <img alt="GitHub top language" src="https://github.com/robertokbr/FCLearning/.Github/home.png">
+ <img alt="Leading" src="https://github.com/robertokbr/FCLearning/blob/master/.Github/home.png">
 <h4 align="center">
 A platform to join develop enthusiasts into professional developers to share knowledge 
 </h4>
