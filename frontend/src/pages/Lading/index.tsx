@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiLinkedin } from 'react-icons/fi';
+import { FiLinkedin, FiLogIn, FiDownload } from 'react-icons/fi';
 import './styles.css';
 
 import logoImg from '../../assets/images/logo.svg';
@@ -32,12 +32,12 @@ export default function Landing() {
 
         <div className="buttons-container">
           <Link to="/study" className="study">
-            <img src={studyIcon} alt="Estudar" />
-            Estudar
+            <FiLogIn size={30} />
+            Entrar
           </Link>
           <Link to="/give-classes" className="give-classes">
-            <img src={giveClassesIcon} alt="Dar Aulas" />
-            Dar Aulas
+            <FiDownload size={30} />
+            Fazer cadastro
           </Link>
         </div>
 

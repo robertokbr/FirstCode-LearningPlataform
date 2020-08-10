@@ -23,16 +23,13 @@ const TeacherList: React.FC = () => {
         </form>
       </PageHeader>
       <main>
-       
-        <TeacherItem/>
-        <TeacherItem/>
-        <TeacherItem/>
-        <TeacherItem/>
-        <TeacherItem/>
-        <TeacherItem/>
-
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
+        <TeacherItem />
       </main>
-
     </div>
   );
 };

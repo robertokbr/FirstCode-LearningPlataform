@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import {} from 'react-icons/fi';
+import { FiArrowLeft } from 'react-icons/fi';
 import logoImg from '../../assets/images/logo.svg';
 import backIcon from '../../assets/images/icons/back.svg';
 
@@ -14,7 +14,7 @@ const PageHeader: React.FC<HeaderProps> = ({ title, children }) => {
     <header className="page-header">
       <div className="top-bar-container">
         <Link to="/">
-          <img src={backIcon} alt="voltar" />
+          <FiArrowLeft size={30} color="#5e73dd" />
         </Link>
         <img src={logoImg} alt="Proffy" />
       </div>
