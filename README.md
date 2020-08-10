@@ -1,4 +1,6 @@
 <h1 align="center">
+  <img src="https://github.com/robertokbr/FCLearning/blob/master/frontend/src/assets/images/logo.svg" width="170px" /><br>
+  <br>
  FCLearning
 </h1>
  <img alt="Leading" src="https://github.com/robertokbr/FCLearning/blob/master/.Github/home.png">
