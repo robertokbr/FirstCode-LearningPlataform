@@ -20,7 +20,7 @@ export default class ClassesController {
     const week_day = filters.week_day as string;
     const time = filters.time as string;
 
-    const timeInMinutes = convertHoursToMinutes(filters.time as string);
+    const timeInMinutes = convertHoursToMinutes(time as string);
 
     const classes = await db('classes')
       .whereExists(function () {
