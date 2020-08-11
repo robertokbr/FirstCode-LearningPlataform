@@ -1,14 +1,13 @@
-import React from "react";
-import PageHeader from "../../components/PageHeader";
-import "./styles.css"
+import React from 'react';
+import PageHeader from '../../components/PageHeader';
+import './styles.css';
 
-const TeacherForm : React.FC = ()=>{
-  
+const TeacherForm: React.FC = () => {
   return (
     <div id="page-teacher-list" className="container">
-    <PageHeader title="Que incrivel que voce quer dar aula" />
+      <PageHeader title="Que incrivel que voce quer dar aula" />
     </div>
-    )
-  };
-   
-  export default TeacherForm;
+  );
+};
+
+export default TeacherForm;

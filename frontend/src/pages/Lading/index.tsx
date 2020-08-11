@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FiLinkedin, FiLogIn, FiDownload } from 'react-icons/fi';
+import { FiLinkedin, FiLogIn, FiInbox } from 'react-icons/fi';
 import './styles.css';
 
 import logoImg from '../../assets/images/logo.svg';
@@ -31,13 +31,13 @@ export default function Landing() {
         />
 
         <div className="buttons-container">
-          <Link to="/study" className="study">
+          <a href="/study" className="study">
             <FiLogIn size={30} />
-            Entrar
-          </Link>
+            Começar
+          </a>
           <Link to="/give-classes" className="give-classes">
-            <FiDownload size={30} />
-            Fazer cadastro
+            <FiInbox size={30} />
+            Entrar em contato
           </Link>
         </div>
 
