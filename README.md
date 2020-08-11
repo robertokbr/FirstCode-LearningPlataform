@@ -26,6 +26,8 @@ A platform to join develop enthusiasts into professional developers to share kno
   </a>
 </p>
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/418ff6bd-cb76-47ea-b762-6fd8de634b72/deploy-status)](https://app.netlify.com/sites/stupefied-swanson-9d13e4/deploys)
+
 # 🚧 In progress
 
 - [ReactJs with Typescript](https://reactjs.org) - A JavaScript library for building user interfaces
