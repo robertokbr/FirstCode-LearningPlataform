@@ -1,71 +1,68 @@
-<h1 align="center">
-  <img src="https://github.com/robertokbr/FCLearning/blob/master/frontend/src/assets/images/logo.svg" width="250px" /><br>
-  <br>
- FCLearning
-</h1>
- <img alt="Leading" src="https://github.com/robertokbr/FCLearning/blob/master/.Github/home.png">
-<h4 align="center">
-A platform to join develop enthusiasts into professional developers to share knowledge 
-</h4>
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/robertokbr/FCLearning.svg">
-
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/robertokbr/FCLearning.svg">
-
-  <a href="https://www.codacy.com/app/robertokbr/FCLearning?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=robertokbr/FCLearning&amp;utm_campaign=Badge_Grade">
-    <img alt="Codacy grade" src="https://img.shields.io/codacy/grade/1b577a07dda843aba09f4bc55d1af8fc.svg">
-  </a>
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/robertokbr/FCLearning.svg">
-  <a href="https://github.com/robertokbr/FCLearning/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/robertokbr/FCLearning.svg">
-  </a>
-
-  <a href="https://github.com/robertokbr/FCLearning/issues">
-    <img alt="Repository issues" src="https://img.shields.io/github/issues/robertokbr/FCLearning.svg">
-  </a>
+   <img src="./.github/logo.png" alt="Proffy" width="280"/>
 </p>
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/418ff6bd-cb76-47ea-b762-6fd8de634b72/deploy-status)](https://app.netlify.com/sites/stupefied-swanson-9d13e4/deploys)
+### Web 
+<div>
+   <img src="./.github/web-landing.png" width="400px">
+   <img src="./.github/web-list.png" width="400px">
+</div>
 
-# 🚧 In progress
+### Mobile
+<div>
+   <img src="./.github/mobile-splash.png" width="180">
+   <img src="./.github/mobile-onboarding.png" width="180">
+   <img src="./.github/mobile-home.png" width="180">
+   <img src="./.github/mobile-favoritos.png" width="180">
+</div>
 
-- [ReactJs with Typescript](https://reactjs.org) - A JavaScript library for building user interfaces
-- [react-router-dom]()
-- [Axios](https://github.com/axios/axios) - Promise based HTTP client for the browser and NodeJs
-- [Eslint]()
-- [Prettier]()
-- [EditorConfig]()
-
-## 🎈 Project Style
-
-* EditorConfig
-* Eslint -config-airbnb
-* Prettier
-
-## :information_source: How To Use
-
-To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16][nodejs] or higher + [Yarn v1.13][yarn] or higher installed on your computer. From your command line:
+# How to run
+```bash
+# Clone Repository
+$ git clone https://github.com/robertokbr/Proffy.git
+```
+### 📦 Run API
 
 ```bash
-# Clone this repository
-$ git clone https://github.com/robertokbr/FCLearning
+# Go to server folder
+$ cd Proffy/server
 
-# Go into the repository
-$ cd FCLearning
-
-# Install dependencies
+# Install Dependencies
 $ yarn install
 
-# Run the app
+# Run Aplication
 $ yarn start
 ```
----
+Access API at http://localhost:3333/
 
-Roberto Junior :wave: [Join me on Linkedin!](https://www.linkedin.com/in/robertojrcdc/)
+### Run Web
 
-[nodejs]: https://nodejs.org/
-[yarn]: https://yarnpkg.com/
-[vc]: https://code.visualstudio.com/
-[vceditconfig]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
-[vceslint]: https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint
+```bash
+# Go to web folder
+$ cd Proffy/web
+
+# Install Dependencies
+$ yarn install
+
+# Run Aplication
+$ yarn start
+```
+Go to http://localhost:3000/ to see the result.
+
+### Run Mobile Project
+Install [expo](https://play.google.com/store/apps/details?id=host.exp.exponent) in your phone.
+<br />
+
+```bash
+# Go to mobile folder
+$ cd Proffy/mobile
+
+# Install Dependencies
+$ yarn install
+
+# Run Aplication
+$ yarn start
+```
+Read de QR code
+
+
