@@ -1,12 +1,13 @@
-import React from "react";
-import "./styles.css";
+/* eslint-disable jsx-a11y/control-has-associated-label */
+import React from 'react';
+import './styles.css';
 
-import PageHeader from "../../components/PageHeader/";
-import TeacherItem from "../../components/TeacherItem";
-import Input from "../../components/Input";
-import Select from "../../components/Select";
+import PageHeader from '../../components/PageHeader';
+import TeacherItem from '../../components/TeacherItem';
+import Input from '../../components/Input';
+import Select from '../../components/Select';
 
-export default function TeacherList() {
+const TeacherList: React.FC = () => {
   return (
     <div className="container" id="page-teacher-list">
       <PageHeader title="Esses são os Proffys disponíveis.">
@@ -15,31 +16,26 @@ export default function TeacherList() {
             name="subject"
             label="Matéria"
             options={[
-              { value: "Artes", label: "Artes" },
-              { value: "Biologia", label: "Biologia" },
-              { value: "Geografia", label: "Geografia" },
-              { value: "Matematica", label: "Matematica" },
-              { value: "Ingles", label: "Ingles" },
-              { value: "Historia", label: "Historia" },
-              { value: "Fisica", label: "Fisica" },
-              { value: "Portugues", label: "Portugues" },
-              { value: "Quimica", label: "Quimica" },
+              { value: 'Frontend', label: 'Frontend' },
+              { value: 'Backend', label: 'Artes' },
+              { value: 'Mobile', label: 'Mobile' },
+              { value: 'Devops', label: 'Devops' },
+              { value: 'FullStack', label: 'FullStack' },
             ]}
           />
           <Select
             name="week_day"
-            label="Dia da Semana"
+            label="Dia da semana"
             options={[
-              { value: "0", label: "Domingo" },
-              { value: "1", label: "Segunda" },
-              { value: "2", label: "Terça" },
-              { value: "3", label: "Quarta" },
-              { value: "4", label: "Quinta" },
-              { value: "5", label: "Sexta" },
-              { value: "6", label: "Sábado" },
+              { value: '0', label: 'Domimgo' },
+              { value: '0', label: 'segunda-feira' },
+              { value: '2', label: 'terça-feira' },
+              { value: '3', label: 'quarta-feira' },
+              { value: '4', label: 'quinta-feira' },
+              { value: '5', label: 'sexta-feira' },
+              { value: '6', label: 'sábado-feira' },
             ]}
           />
-
           <Input name="time" label="Hora" type="time" />
         </form>
       </PageHeader>
@@ -51,4 +47,6 @@ export default function TeacherList() {
       </main>
     </div>
   );
-}
+};
+
+export default TeacherList;
