@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
-import "./styles.css";
+import './styles.css';
 
-import whatsappIcon from "../../assets/images/icons/whatsapp.svg";
+import whatsappIcon from '../../assets/images/icons/whatsapp.svg';
 
 function TeacherItem() {
   return (
@@ -19,7 +19,9 @@ function TeacherItem() {
       </header>
       <p>
         Aulas de Matemática bem estruturadas e expositiva.
-        <br /> <br />
+        <br />
+{' '}
+<br />
         Estude para o ENEM e Vestibulares no Melhor Cursinho com o Melhor Preço.
         Pague em até 12x. ENEM com a melhor preparação. Parcelas por menos de R$
         15 reais.
