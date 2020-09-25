@@ -1,14 +1,12 @@
-/* eslint-disable camelcase */
-/* eslint-disable class-methods-use-this */
 import { Response, Request } from 'express';
 
-import convertHourToMinutes from "../utils/convertHourToMinutes";
-import db from "../db/connection";
+import convertHourToMinutes from '../utils/convertHourToMinutes';
+import db from '../db/connection';
 
 interface ScheduleItem {
-  week_day: number,
-  from: string,
-  to: string,
+  week_day: number;
+  from: string;
+  to: string;
 }
 
 export default class ClassesController {
@@ -44,15 +42,7 @@ export default class ClassesController {
   }
 
   async create(req: Request, res: Response) {
-    const {
-      name,
-      avatar,
-      whatsapp,
-      bio,
-      subject,
-      cost,
-      schedule,
-    } = req.body;
+    const { name, avatar, whatsapp, bio, subject, cost, schedule } = req.body;
 
     const trx = await db.transaction();
 
@@ -87,7 +77,9 @@ export default class ClassesController {
     } catch (err) {
       await trx.rollback();
 
-      return res.status(400).json({ error: 'Unexpected error while creating new class.' });
+      return res
+        .status(400)
+        .json({ error: 'Unexpected error while creating new class.' });
     }
   }
 }
